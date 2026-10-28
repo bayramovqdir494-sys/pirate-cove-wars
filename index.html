@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Pirate Cove Wars</title>
+<style>html,body{margin:0;height:100%;overflow:hidden;background:#0b2a44;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}#game{position:fixed;inset:0}#game canvas{display:block}
+@font-face{font-family:Pirata;src:url(assets/PirataOne.ttf)}@font-face{font-family:Lilita;src:url(assets/LilitaOne.ttf)}
+#boot{position:fixed;inset:0;z-index:20;display:grid;place-items:center;background:radial-gradient(circle at 50% 38%,#f3b878 0,#c86a3a 28%,#2a4a6a 70%,#0b2a44);transition:opacity .6s;color:#fff;font-family:Lilita,system-ui,sans-serif}
+#boot h1{font-family:Pirata,serif;font-weight:normal;font-size:min(15vw,6em);margin:0;color:#ffd85a;text-shadow:0 .05em 0 #6a3a00,0 .1em .3em rgba(0,0,0,.5);text-align:center;line-height:.85}
+#boot h1 small{display:block;font-size:.5em;color:#fff3d0;letter-spacing:.08em}
+#boot .lb{width:min(20em,70vw);height:.9em;border-radius:1em;background:rgba(0,0,0,.4);border:.15em solid #e9b844;overflow:hidden;margin:1.4em auto .4em}
+#boot .lb i{display:block;height:100%;width:4%;background:linear-gradient(#ffe27a,#f0a51c);transition:width .25s}
+#boot p{text-align:center;margin:0;opacity:.85;font-size:1em}</style>
+<script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script>
+</head><body><div id="game"></div><div id="boot"><div><h1>Pirate Cove<small>WARS</small></h1><div class="lb"><i id="lbar"></i></div><p id="ltxt">Hoisting the sails…</p></div></div><script src="game.js"></script></body></html>
